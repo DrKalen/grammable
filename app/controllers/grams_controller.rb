@@ -1,6 +1,10 @@
 class GramsController < ApplicationController
     before_action :authenticate_user!, only: [:new, :create]
-    
+
+    def show
+       @gram = Gram.find( params: { id: gram.id} )
+    end
+
     def index
     end
 
