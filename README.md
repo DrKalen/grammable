@@ -15,6 +15,7 @@
     * Carrierwave for image uploading
     * Heroku for deployment
     * Figaro and Fog to pass AWS credentials to Heroiku
+
 Sign-Up Form
 ![SCREENSHOT](../master/app/assets/images/lifeshare_sign_up_form.png)
 
@@ -23,3 +24,6 @@ Log In Form:
 
 New Post Form
 ![SCREENSHOT](../master/app/assets/images/lifeshare_new_post_form.png)
+
+Comments appear immediately:
+![SCREENSHOT](../master/app/assets/images/lifeshare_with_comments.png)
